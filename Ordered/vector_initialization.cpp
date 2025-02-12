@@ -7,10 +7,12 @@ int main()
     vector <int> v;
     v.push_back(1); //normal push back
     v.emplace_back(2); // faster than push back
+    v.emplace_back(3); // faster than push back
+    v.emplace_back(4); // faster than push back
 
-    for(auto i : v)
+    for(vector<int>::reverse_iterator rt = v.rbegin(); rt != v.rend(); ++rt )
     {
-        cout << "i : " << i << endl;
+        cout << *rt << " ";
     }
 
     cout << "\n-------------VECTOR INIT WITH VALUE------------\n";
@@ -42,6 +44,7 @@ int main()
     // }
 
     // (or)  either of them we can use
+    
     for(vector<int>::iterator it = v3.begin(); it != v3.end();++it)
     {
         cout << *it << " ";
