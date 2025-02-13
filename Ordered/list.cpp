@@ -29,3 +29,13 @@ int main()
     // begin,end,ebegin.rend,clear,insert,size,swap
 
 }
+
+
+/* 
+OUTPUT  
+
+2 3 
+
+---------------------------------------
+
+1 1 2 3 */
