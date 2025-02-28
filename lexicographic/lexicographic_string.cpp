@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    string s = "abc";
+    string s = "1234";
 
     vector<string> v_str;
 
